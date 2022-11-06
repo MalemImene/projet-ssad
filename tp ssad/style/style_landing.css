@@ -533,4 +533,57 @@ form{
     font-size: 13px;
     color: #FFFFFF;
 }
-µ
+#cont_tab{
+    left: 170px;
+    top: 120px;    
+    position: absolute;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: #111221;
+    padding: 30px;
+}
+#tab{
+    width:850px;
+    font-family: 'Montserrat',sans-serif;
+    color: white;    
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+th, td {
+    height: 35px;
+    border: 1px solid #3a3b4f;
+    border-collapse: collapse;
+}
+th{
+    background-color: #2a2c3d;
+    color: #fff;;
+    font-size: 13pt;
+}
+
+.col_username{
+    text-align: center;
+    width: 20%;
+}
+.col_message{
+    padding-left: 10px;
+    width: 60%;
+}
+.col_decrypt{
+    text-align: center;
+    width: 15%;
+}
+
+.col_decrypt button{
+    background-color: #c27d1d;
+    height: 27px;
+    width: 85px;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;    
+    border: none;
+}
+
