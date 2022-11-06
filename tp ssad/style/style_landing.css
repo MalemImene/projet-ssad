@@ -447,7 +447,7 @@ form{
     flex-direction: column;
     gap: 15px;
 }
-#row #step,.haja input,select{
+#row #step, #row #A, #row #B,.haja input,select{
     height: 30px;
     width: 250px;
     border: 2px solid #18d07d90;
@@ -459,7 +459,7 @@ form{
     font-size: 13px;
     color: #FFFFFF;
 }
-#row #step{
+#row #step, #row #A, #row #B{
     width: 60px;    
     padding-left: 10px;
 }
