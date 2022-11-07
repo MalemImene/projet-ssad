@@ -221,11 +221,11 @@ html{
     align-items: center;
     width: 200px;
     font-family: 'Montserrat' ,sans-serif;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight:500;
+    font-size: 14px;
     line-height: 17px;
-    text-align: center;
-    color: #fff;
+    text-align: justify;
+    color: rgb(202, 202, 202);
 }
 .card .titre{
     margin-top: 20px;
@@ -256,7 +256,7 @@ html{
     filter: drop-shadow(0px 2px 35px rgba(24, 208, 125, 0.714183));
 }
 
-.card:hover > .tri{
+.card:hover > div .tri{
     width: 130px;
     margin-left: 70px;
     padding-top: 8px;
@@ -587,3 +587,10 @@ th{
     border: none;
 }
 
+#main{
+    width: 60%;
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    padding-bottom: 50px;
+}
